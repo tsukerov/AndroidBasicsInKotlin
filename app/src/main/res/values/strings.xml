@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidBasicsInKotlin</string>
+    <string name="happy_birthday_anuta">Happy Birthday, Anuta!</string>
+    <string name="from_iluha">From Iluha</string>
+    <string name="todo">TODO</string>
+</resources>
