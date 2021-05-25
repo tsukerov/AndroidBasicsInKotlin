@@ -3,6 +3,7 @@ package ru.devtsukerov.dice_roller
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 /**
@@ -28,9 +29,11 @@ class MainActivity : AppCompatActivity() {
     private fun rollDice() {
         // Create new two Dice object with 6 sides and roll it
         val dice = Dice(6)
-              // Update the screen with the dice roll
-        val resultTextView = findViewById<TextView>(R.id.textView)
-        resultTextView.text = dice.roll().toString()
+            // Update the screen with the dice roll
+//        val resultTextView = findViewById<TextView>(R.id.textView)
+//        resultTextView.text = dice.roll().toString()
+        val diceImage = findViewById<ImageView>(R.id.imageView)
+        diceImage.setImageResource(R.drawable.dice_3)
 
     }
 
