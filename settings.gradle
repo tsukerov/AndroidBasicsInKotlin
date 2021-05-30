@@ -1,3 +1,4 @@
 rootProject.name = "AndroidBasicsInKotlin"
 include ':app'
 include ':dice_roller'
+include ':tiptime'

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tip Time</string>
+    <string name="cost_of_service">Стоимость обслуживания</string>
+    <string name="how_was_the_service">Как вам обслуживание?</string>
+    <string name="amazing_service">Превосходно (20%)</string>
+    <string name="good_service">Отлично (18%)</string>
+    <string name="okay_service">Хорошо (15%)</string>
+    <string name="round_up_tip">Округлить чаевые?</string>
+    <string name="calculate">Расчет</string>
+    <string name="tip_amount">Кол-во чаевых: %s</string>
+</resources>
